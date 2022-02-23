@@ -26,6 +26,7 @@ export default NextAuth({
             clientSecret: process.env.TWITTER_CLIENT_SECRET,
         }),
     ],
+    secret: process.env.NEXTAUTH_SECRET,
 })
 
 // http://localhost:3000/api/auth/callback/google
