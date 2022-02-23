@@ -41,9 +41,7 @@ const SignIn = () => {
     }
 
     if (session) {
-        return setTimeout(() => {
-            router.push('/restrict-area')
-        }, 5000)
+        router.push('/restrict-area')
     }
 
     if (!session) {
