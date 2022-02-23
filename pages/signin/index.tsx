@@ -102,7 +102,14 @@ const SignIn = () => {
                                         <BsGoogle />
                                     </OAuthIcon>
 
-                                    <OAuthIcon>
+                                    <OAuthIcon
+                                        onClick={() =>
+                                            signIn('twitter', {
+                                                callbackUrl:
+                                                    'https://flix-cadastro.vercel.app/restrict-area',
+                                            })
+                                        }
+                                    >
                                         <BsTwitter />
                                     </OAuthIcon>
 
