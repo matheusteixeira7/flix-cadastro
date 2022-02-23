@@ -97,7 +97,7 @@ const SignIn = () => {
                                         onClick={() =>
                                             signIn('google', {
                                                 callbackUrl:
-                                                    'http://localhost:3000/restrict-area',
+                                                    'https://flix-cadastro.vercel.app/restrict-area',
                                             })
                                         }
                                     >
@@ -112,7 +112,7 @@ const SignIn = () => {
                                         onClick={() =>
                                             signIn('facebook', {
                                                 callbackUrl:
-                                                    'http://localhost:3000/restrict-area',
+                                                    'https://flix-cadastro.vercel.app/restrict-area',
                                             })
                                         }
                                     >
