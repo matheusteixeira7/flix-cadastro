@@ -6,14 +6,14 @@ import { GlobalStyle } from '../src/presentation/styles/globals'
 import theme from '../src/presentation/styles/theme'
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
-  return (
-    <ThemeProvider theme={theme}>
-      <SessionProvider session={session}>
-        <GlobalStyle />
-        <Component {...pageProps} />
-      </SessionProvider>
-    </ThemeProvider>
-  )
+    return (
+        <ThemeProvider theme={theme}>
+            <SessionProvider session={session}>
+                <GlobalStyle />
+                <Component {...pageProps} />
+            </SessionProvider>
+        </ThemeProvider>
+    )
 }
 
 export default MyApp
