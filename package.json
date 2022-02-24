@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "css-ripple-effect": "^1.0.5",
+    "faunadb": "^4.5.2",
     "next": "12.1.0",
     "next-auth": "^4.2.1",
     "polished": "^4.1.4",
